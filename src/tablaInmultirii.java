@@ -6,6 +6,7 @@ public class tablaInmultirii {
         for(int i=0;i<=10;i++){
             int inmultire=i*numar;
             SkeletonJava.printConsole(i+"X"+numar+"="+inmultire);
+            System.out.println();
 
         }
 

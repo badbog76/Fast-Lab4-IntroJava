@@ -4,7 +4,7 @@
 public class Exercitii1 {
     public static void main(String[] args) {
         int numar;
-        numar=SkeletonJava.readIntConsole("Introduceti un numar");
+        numar=SkeletonJava.readIntGUI("Introduceti un numar");
         if (numar>=0) {
             int patrat=numar*numar;
             SkeletonJava.printConsole("Aici este patratul "+patrat);
